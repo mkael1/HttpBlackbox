@@ -15,3 +15,9 @@ This project is my exploration into the inner workings of HTTP, TCP connections,
 - **Serve files** – Easily respond with static files.
 - **Chunked responses** – Support for sending responses in chunks when needed.
 - **Serve HTML** – Respond with HTML content directly.
+
+## Disclaimer
+
+This project was built primarily as a learning exercise. The code is **not intended to be production-ready**, nor is it necessarily the most idiomatic or efficient Go code. Many decisions were made to prioritize understanding and experimentation over performance, scalability, or best practices.  
+
+If you’re looking for a robust HTTP server, Go’s standard `net/http` package is highly recommended. This project is here to explore the inner workings of HTTP and TCP in a hands-on way.
