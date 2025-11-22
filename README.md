@@ -18,6 +18,6 @@ This project is my exploration into the inner workings of HTTP, TCP connections,
 
 ## Disclaimer
 
-This project was built primarily as a learning exercise. The code is **not intended to be production-ready**, nor is it necessarily the most idiomatic or efficient Go code. Many decisions were made to prioritize understanding and experimentation over performance, scalability, or best practices.  
+This project was built primarily as a learning exercise. While I followed the [HTTP RFC](https://www.rfc-editor.org/rfc/rfc9112) documentation closely to understand the protocol and implement the core behavior accurately, the code is **not intended to be production-ready**, nor is it necessarily the most idiomatic or optimized Go code.  
 
-If you’re looking for a robust HTTP server, Go’s standard `net/http` package is highly recommended. This project is here to explore the inner workings of HTTP and TCP in a hands-on way.
+The goal of this project was to deepen my understanding of HTTP, TCP, and low-level networking—not to recreate a fully mature web server. If you're looking for a robust and battle-tested solution, Go’s standard `net/http` package remains the best option.
